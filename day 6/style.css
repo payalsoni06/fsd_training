@@ -1,0 +1,89 @@
+/* defining the global variables */
+:root{
+    --primaryColor: #084958;
+    --backgroundColor: #54cca8;
+    --myTitleFont:'dancing script', cursive;
+    --titleFont:'Sacramento',cursive;
+    --fontDefaultTextFont: 'Lato', sans-serif;
+    --fontDefaultHeading: 'Montserrat', sans-serif; 
+}
+
+/* main css */
+
+body{
+    margin: 0px;
+}
+ 
+hr{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border: dotted var(--backgroundColor);
+    border-bottom: none;
+    width: 5%;
+}
+.top-section{
+    background-color:var(--backgroundColor) ;
+    color: var(--primaryColor);
+    /* height: 400px; */
+    text-align: center;
+    padding-top: 100px;
+    
+}
+
+body{
+    margin: 0px;
+    color:var(--primaryColor);
+    background-color: rgb(224, 236, 113);
+}
+
+
+.heading {
+    font-family: var(--titleFont);
+    font-size: 5em; /*5mulitply by 16 --px*/
+    margin: 0;
+}
+
+
+h2 {
+    font-family: var(--fontDefaultHeading);
+    margin: 0;
+    font-size: 1.05em;  /* 1em = 16px */
+    padding-bottom: 90px;
+}
+.top-cloud{
+    position:absolute;
+    margin-block-start: -80px;
+    margin-left: 350px;
+    width: 100px;
+}
+
+.middle-section{
+    margin:50px auto 100px auto;
+    text-align:center;
+    width: 75%;
+}
+
+.bottom-cloud{
+    position: absolute;
+    margin-block-start: 100px;
+    margin-left: -150px;
+    width: 100px;
+}
+.mountain{
+    width:400px;
+}
+img{
+    margin: bottom -20px;
+}
+/* 
+font-family: 'Dancing Script', cursive;
+font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif; 
+*/
+.panda{
+    border-radius:100%;
+    width: 200px;
+    display: block;
+    margin: auto;
+    margin: 100px auto 50px auto;
+}
