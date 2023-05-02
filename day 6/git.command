@@ -21,7 +21,7 @@ git commit -m "any message stating  for what this commit is"
 
 #choose  branch
 git checkout master
-#ori
+#or
 git checkout-b nayi_branch
 
 #push the changes to your branch
@@ -36,8 +36,7 @@ git merge
 
 ####
 #fetch all the tree structure from remote 
-git fetch 
-
+git fetch
 
 
 
