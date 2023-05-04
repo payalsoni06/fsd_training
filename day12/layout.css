@@ -1,0 +1,140 @@
+body{
+    background-color:rgb(127, 193, 244);
+    text-align:center ;
+    color:whitesmoke;
+    font-family: sans-serif;
+    font-size: medium;
+}
+
+div{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+.red{
+    background-color: red;
+}
+
+
+.green{
+    background-color: green;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.magenta{
+    background-color: magenta;
+}
+
+.orange{
+    background-color: orange;
+}
+
+.brown{
+    background-color: brown;
+}
+
+.teal{
+    background-color: teal;
+}
+
+@media screen and (min-width:1000px){
+body{
+    background-color: darkolivegreen ;
+}
+}
+
+@media screen and (min-width:700px) and (max-width:999px) {            /*(min-width) and (max-width)*/
+    body{
+        background-color: bisque;
+    }
+    
+}
+
+@media screen and (max-width:500px) {
+    div{
+        display: block;
+    }
+    
+}
+
+
+/* media query should always be written in last , it is useful in converting a laptop oriented
+ website into mobile oriented website  
+ CSS BREAK POINTS
+ MOBILE devices - 320px-480px
+ ipads, tablets-481px-768px
+ small screens & laptops - 769px-1024px
+ desktops& large screens- 1025px-1200px
+ extra large screens & tv - 1201px - and more*/
+
+
+ @media  screen and (min-width:380px)  {
+    .red{
+        background-color: blue;
+    }
+    
+ }
+
+ 
+ @media  screen and (min-width:481px)  {
+    .red{
+        background-color: orange;    }
+    
+ }
+
+ 
+ @media  screen and (min-width:769px)  {
+    .red{
+        background-color: yellow;
+    }
+    
+ }
+
+ 
+ @media  screen and (min-width:1025px)  {
+    .red{
+        background-color: brown;
+    }
+    
+ }
+
+ 
+ @media  screen and (min-width:1201px)  {
+    .red{
+        background-color: red;
+    }
+    
+ }
+
+
+ @media  screen and (prefers-colors-scheme: light) {
+  body{
+    background-color: chocolate;
+  }
+          
+    
+ }
+
+ @media (orientation : landscape) {
+    body{
+        flex-direction: row;
+        background-color: violet;
+    }
+    
+ }
+
+ @media (orientation:portrait) {
+     body{
+        flex-direction: portrait;
+        background-color:cornflowerblue;
+     }
+    
+ }
